@@ -11,6 +11,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      - run: 'echo "$GOOGLE_SERVICES" > android/app/google-services.json'
+        shell: bash
+        env:
+          GOOGLE_SERVICES: ${{ secrets.GOOGLE_SERVICES }}
       - uses: actions/setup-java@v1
         with:
           java-version: '12.x'
