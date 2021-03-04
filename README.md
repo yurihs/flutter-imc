@@ -11,6 +11,7 @@ coleta, o processamento, a análise de dados e a informação em serviços de sa
 * Validação das entradas (aceita apenas valores numéricos, dentro dos limites)
 * Ícone com transição animada para representar a classificação do IMC calculado
 * Tema escuro utilizado quando o sistema está em modo noturno
+* Histórico de resultados
 
 <p align="center">
   <img alt="Telas do aplicativo" src="./screenshot.png" />
